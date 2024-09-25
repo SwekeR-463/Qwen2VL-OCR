@@ -84,36 +84,40 @@ You can deploy this application easily on Hugging Face Spaces, which supports Gr
 
 2. **Create a New Space:**
 
-   Navigate to the [Spaces](https://huggingface.co/spaces) section.
+   <ul>
+      <li>Navigate to the [Spaces](https://huggingface.co/spaces) section.</li>
+      <li>Click on "Create a Space."</li>
+      <li>Choose Gradio as the template for your Space.</li>
+   </ul>
 
-   Click on "Create a Space."
+4. **Set Up the Repository:**
 
-   Choose Gradio as the template for your Space.
-
-
-3. **Set Up the Repository:**
-   Clone the repository on Hugging Face Spaces by connecting your GitHub repository or uploading the files manually.
+   <ul>
+      <li>Clone the repository on Hugging Face Spaces by connecting your GitHub repository or uploading the files manually.</li>
+      <li>Make sure to include the requirements.txt file to install the necessary dependencies (e.g., gradio, transformers, torch).</li>
+   </ul>
    
-   Make sure to include the requirements.txt file to install the necessary dependencies (e.g., gradio, transformers, torch).
-
-4. **Add the Required Files:**
+5. **Add the Required Files:**
    Ensure the following files are in the repository:
-   
-   app.py: The main Python script running the Gradio app.
-   requirements.txt: The list of dependencies.
+
+   <ul>
+      <li>app.py: The main Python script running the Gradio app.</li>
+      <li>requirements.txt: The list of dependencies.</li>
+   </ul>
 
    Hugging Face will automatically install the dependencies from requirements.txt.
 
-5. **Push Your Changes:**
+6. **Push Your Changes:**
 
-   Once the repository is set up, commit and push your changes to Hugging Face.
+   <ul>
+      <li>Once the repository is set up, commit and push your changes to Hugging Face.</li>
+      <li>Hugging Face Spaces will automatically build and deploy your app.</li>
+   </ul>
 
-   Hugging Face Spaces will automatically build and deploy your app.
+7. **Access Your Space:**
 
-
-
-7. Access Your Space:
-
-After a successful build, you will get a URL for your Space (e.g., https://huggingface.co/spaces/yourusername/ocr-keyword-search).
-
-Open this link in your browser to use the deployed application.
+   <ul>
+      <li>After a successful build, you will get a URL for your Space (e.g., https://huggingface.co/spaces/yourusername/your-space-name).</li>
+      <li>Open this link in your browser to use the deployed application.</li>
+   </ul>
+   
