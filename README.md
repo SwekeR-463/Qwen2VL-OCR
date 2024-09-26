@@ -11,7 +11,7 @@ This web application allows users to upload images, extract text in Hindi & Engl
 ### Key Features:
 - **OCR:** Extracts text in English, Sanskrit, and Hindi from images using the Qwen2-VL model.
 - **Keyword Search:** Search for keywords within the extracted text.
-- **Multilingual Support:** Works for multilingual texts.
+- **Multilingual Support:** Works for images containing hindi and english texts.
 
 ### Technology Stack:
 - **Gradio:** Provides the user interface for image uploading and interaction.
