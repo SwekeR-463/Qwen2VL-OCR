@@ -6,6 +6,18 @@ This web application allows users to upload images, extract text in Hindi & Engl
 
 ![Screenshot](https://github.com/user-attachments/assets/74f6f6fe-c50e-43ce-a1c6-02ff6f64b2da)
 
+## Project Details
+
+### Key Features:
+- **OCR:** Extracts text in English, Sanskrit, and Hindi from images using the Qwen2-VL model.
+- **Keyword Search:** Search for keywords within the extracted text.
+- **Multilingual Support:** Works for multilingual texts.
+
+### Technology Stack:
+- **Gradio:** Provides the user interface for image uploading and interaction.
+- **Transformers:** Handles the model loading and text extraction process.
+- **Torch:** Used for computation on the CPU during inference.
+
 ## Setup Instructions
 
 ### Prerequisites
