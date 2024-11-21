@@ -4,7 +4,6 @@ This web application allows users to upload images, extract text in Hindi & Engl
 
 ### [Live Demo](https://huggingface.co/spaces/Swekerr/Qwen2VL-OCR)  
 
-![Screenshot](https://github.com/user-attachments/assets/74f6f6fe-c50e-43ce-a1c6-02ff6f64b2da)
 
 ## Project Details
 
